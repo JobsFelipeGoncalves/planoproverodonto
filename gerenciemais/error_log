@@ -1,0 +1,7 @@
+[06-Dec-2022 11:39:43 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No route to host' in /home/appwbc/proverodonto.com.br/gerenciemais/aplicacao/conexao.php:17
+Stack trace:
+#0 /home/appwbc/proverodonto.com.br/gerenciemais/aplicacao/conexao.php(17): PDO->__construct('mysql:host=162....', 'appwbc_podonto', 'PoD$21@onto20')
+#1 /home/appwbc/proverodonto.com.br/gerenciemais/aplicacao/configuracao.php(6): include_once('/home/appwbc/pr...')
+#2 /home/appwbc/proverodonto.com.br/gerenciemais/index.php(1): include_once('/home/appwbc/pr...')
+#3 {main}
+  thrown in /home/appwbc/proverodonto.com.br/gerenciemais/aplicacao/conexao.php on line 17

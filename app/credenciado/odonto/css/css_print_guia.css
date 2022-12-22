@@ -1,0 +1,164 @@
+/* PRINT GUIA */
+*
+{
+	font-family: calibri, Arial;
+}
+
+@page 
+{
+  size: A4;
+  margin: 10mm 10mm 10mm 10mm;
+}
+
+@media print 
+{
+  html, body 
+  {
+    width: 210mm;
+    height: 297mm;
+  }
+  /* ... the rest of the rules ... */
+}
+
+.centralizado
+{
+	text-align: center;
+}
+
+#title_print_guia
+{
+	font-size: 26px;
+	font-family: Arial;
+	line-height: 65px;
+}
+
+#div_print_guia
+{
+	padding: 28px;
+	overflow: auto;
+	overflow: visible;
+}
+
+.box_dados
+{
+	text-transform: uppercase;
+	height: 54px;
+	border:  1px solid #CCCCCC;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	overflow: hidden;
+	margin-top: 	6px;
+	margin-bottom:  6px;
+}
+
+.float_right
+{
+	float: right;
+}
+
+.box_dados1
+{
+	margin-right: 12px;
+}
+
+.box_dados2
+{
+	margin-right: 12px;
+}
+
+.box_dados3
+{
+	
+}
+
+.box_dados_titulo
+{
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.box_dados_conteu
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#table_procedimento_print_guia
+{
+	font-size: 15px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#table_procedimento_print_guia td
+{
+	border:  1px solid #CCCCCC;
+	height: 36px;
+	line-height: 33px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+#table_procedimento_print_guia th
+{
+	border:  1px solid #CCCCCC;
+	height: 36px;
+	line-height: 33px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.div_assinatura_print_guia
+{
+	float: left;
+	height: 36px;
+	width: 50%;
+}
+
+.div_assinatura_print_guia div
+{
+	text-align: center;
+	border-top:  1px solid #CCCCCC;
+	margin-right: 10px;
+	margin-left : 10px;
+}
+
+
+/* RELATORIO DE GUIAS */
+
+
+#title_print_relguias
+{
+	font-size: 26px;
+	font-family: Arial;
+	line-height: 52px;
+}
+
+
+/* RELATORIO DE GUIAS */
+
+#table_relguias
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#table_relguias td, #table_relguias th
+{
+	border: 1px solid #444444;
+	padding: 10px;
+}
+
+#div_valor_total_relatorio
+{
+	float: right;
+	clear: both;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+
