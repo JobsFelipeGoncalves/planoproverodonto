@@ -96,7 +96,7 @@
                 ';
                 
                 //Emails para quem será enviado o formulário
-                $destino = "marketing@proversaude.com.br";
+                $destino = "marketing@proverodonto.com.br";
                 $assunto = "[ Fale com consultor PJ | Prover Odonto ] ".$nome." solicitou uma proposta do Prover Odonto Empresarial";
 
                 //Este sempre deverá existir para garantir a exibição correta dos caracteres

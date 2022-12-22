@@ -124,8 +124,9 @@
                                         <option value="1 a 5 colaboradores">1 a 5 colaboradores</option>
                                         <option value="5 a 15 colaboradores">5 a 15 colaboradores</option>
                                         <option value="20 a 50 colaboradores">20 a 40 colaboradores</option>
-                                        <option value="50 a 100 colaboradores">10 a 100 colaboradores</option>
+                                        <option value="50 a 100 colaboradores">50 a 100 colaboradores</option>
                                         <option value="100+ colaboradores">100+ colaboradores</option>
+                                        
                                       </select>
                             </div>
                         </div>
