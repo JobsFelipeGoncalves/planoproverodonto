@@ -90,7 +90,7 @@
                         <h2 class = "fonte-medium col-12 col-md-9 mb-5 display-4 cor-azul-escuro wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
                              Com <strong class="bold cor-azul"> plano odontológico Prover Odonto</strong> você só tem vantagens.</strong>
                         </h2>
-                        <h3 class= " cor-azul-escuro col-md-8 w-75 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">Conheça as nossas coberturas, vantagens e benefícios que você terá com o Dental Life.</h3>
+                        <h3 class= " cor-azul-escuro col-md-8 w-75 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">Conheça as vantagens, benefícios e coberturas que a Dental life oferece para você e sua família.</h3>
                     <!-- </center> -->
                 </div>
             </div>
@@ -104,7 +104,7 @@
                 <div class="col-6 col-md mb-3 p-3  wow animate__animated animate__fadeIn" data-wow-delay="1s">
                     <img src="<?= BASE_IMG ?>icones/urgencia-pf.png" width = "50px" class="mb-2"><br>
                     <h5 class = "cor-azul negrito">Urgência</h5>
-                    <p class = "cor-azul-escuro fonte-18 espaco-texto">Alívios de dores, curativos simples e reparos rápidos</p>
+                    <p class = "cor-azul-escuro fonte-18 espaco-texto">Alívio de dores, curativos simples e reparos rápidos</p>
                 </div>
                 <div class="col-6 col-md mb-3 p-3  wow animate__animated animate__fadeIn" data-wow-delay="1s">
                     <img src="<?= BASE_IMG ?>icones/radiologia-pf.png" width = "50px" class="mb-2"><br>
@@ -244,14 +244,14 @@
             <div class="row text-left">
                 <div class="col-md-8 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
                     <img src="<?= BASE_IMG ?>icones/cobertura-pf.png" width = "70px" class="mb-2"><br>
-                    <h1 class = "cor-branco display-4  mb-5"><br> <span class = "fonte-extra-bold">100% de cobertura em seus tratamentos odontológicos.</span> <br>
+                    <h1 class = "cor-branco display-4  mb-5"><br> <span class = "fonte-extra-bold">100% de cobertura em todos os procedimentos odontológicos.</span> <br>
                     </h1>
 
                     <div class="row">
                         <div class="col">                           
 
                             <h4 class = "">
-                                Pagando apenas a mensalidade, você garante 100% de cobertura em todos os tratamentos bucais.
+                            Conforme rol de procedimentos odontológicos editado pela ANS (Agência Nacional de Saúde Suplementar).
                             </h4>
 
                             <!-- <h4 class = "">O<span class = "negrito"> Prover Odonto - Dental Life</span> é sem coparticipação. Ou seja, ao realizar sua consultas você não paga na hora da consulta, O você não precisa pagar pela sua ida ao dentista.

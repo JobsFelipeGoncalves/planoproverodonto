@@ -76,20 +76,21 @@
   .fundo-laranja{background-color:  #feca81;}
 
 /* botoes */
-  .botao-laranja{background-color: #feb54e; color: #fff !important; padding: 15px 20px; font-size: 16px; border: 2px solid #feb54e; border-radius: 5px; font-weight: bold;}
-  .botao-laranja:hover{background-color: #fdaa35; color: #fff; border-color:  #fdaa35;}
+  .botao-laranja{background-color: #feb54e; color: #fff !important; padding: 8px 20px; font-size: 16px; border: 2px solid #feb54e; border-radius: 5px; font-weight: bold;}
+  .botao-laranja-menor{background-color: #feb54e; color: #fff !important; padding: 5px 13px; font-size: 12px; border: 2px solid #feb54e; border-radius: 5px; font-weight: bold;}
+  .botao-laranja:hover, .botao-laranja-menor:hover{background-color: #fdaa35; color: #fff; border-color:  #fdaa35;}
   .botao-azul-menor{background-color: #2897cf; color: #fff !important; padding: 5px 13px; font-size: 12px; border: 2px solid #2897cf; border-radius: 5px; font-weight: bold; }
-  .botao-azul{background-color: #2897cf; color: #fff !important; padding: 15px 20px; font-size: 16px; border: 2px solid #2897cf; border-radius: 5px; font-weight: bold; }
+  .botao-azul{background-color: #2897cf; color: #fff !important; padding: 8px 20px; font-size: 16px; border: 2px solid #2897cf; border-radius: 5px; font-weight: bold; }
   .botao-azul:hover, .botao-azul-menor:hover{ background-color: #1a7aaa; color: #fff; border-color:  #1a7aaa;}
   .botao-branco-menor{background-color: #fff; color: #2897cf; padding: 10px 15px; font-size: 14px; border: 2px solid #ccc; border-radius: 5px; font-weight: bold; }
-  .botao-branco{background-color: #fff; color: #2897cf; padding: 15px 20px; font-size: 16px; border: 2px solid #ccc; border-radius: 5px; font-weight: bold; }
+  .botao-branco{background-color: #fff; color: #2897cf; padding: 8px 20px; font-size: 16px; border: 2px solid #ccc; border-radius: 5px; font-weight: bold; }
   .botao-branco:hover{ background-color: #eef9ff; color: #2897cf;  border: 2px solid #2897cf;}
-  .botao-amarelo{background-color: #f0cc02; color: #fff; padding: 15px 20px; font-size: 16px; border: 2px solid #f0cc02; border-radius: 5px; font-weight: 500; }
+  .botao-amarelo{background-color: #f0cc02; color: #fff; padding: 8px 20px; font-size: 16px; border: 2px solid #f0cc02; border-radius: 5px; font-weight: 500; }
   .botao-amarelo:hover{ background-color: #f0aa04; color: #fff; border-color:#f0aa04; }
   .botao-linha {font-size: 14px; border-bottom: 2px solid #2897cf;  background-color: transparent; color: #353535; padding: 5px 0px;  font-weight: bold; }
   .botao-linha-menor {font-size: 12px; border-bottom: 2px solid #2897cf;  background-color: transparent; color: #353535; padding: 5px 0px;  font-weight: bold; }
   .botao-linha-menor:hover, .botao-linha:hover{color: #1a7aaa; border-bottom: 3px solid #1a7aaa;}
-  .botao-nulo {font-size: 14px; background-color: transparent; color: #909090; padding: 10px 20px;  font-weight: bold;}
+  .botao-nulo {font-size: 14px; background-color: transparent; color: #909090; padding: 8px 20px;  font-weight: bold;}
   .botao-nulo:hover{color: #2897cf;}
   .botao-verde-menor{background-color: #128C7E; color: #fff !important; padding: 5px 13px; font-size: 12px; border: 2px solid #128C7E; border-radius: 5px; font-weight: 400; }
   .botao-verde-menor:hover{ background-color: #0c5f55; color: #fff; border-color:  #0c5f55;}  

@@ -392,7 +392,7 @@
                               </div>
                             </div>
                           </li>                        
-                          <li class="list-group-item fonte-14">Isenção das carências em Campanha de Adesão ou acima de 30 vidas</li>  
+                          <li class="list-group-item fonte-14">Isenção das carências acima de 30 vidas</li>  
                       </ul>
                     </div>
                     <div class="card-body ">
@@ -413,136 +413,48 @@
       </div>
     </section>
 
-<!--     <section id = "encontre-um-credenciado" class = "">
-      <div class="container pt-3 pb-3">
-        <div class="row mt-5 3pt-5 pb-5">
-          <div class="col-md-6 wow animate__animated animate__fadeIn" data-wow-delay="0.1s">
-           <img src="<?= BASE_IMG ?>extra/fundo-rede-credenciada.png" class="img-fluid" style = "margin-top: -10px;">
-         </div>
 
-          <div class="col-md-5 pt-5 wow animate__animated animate__fadeIn" data-wow-delay="0.1s">
-            <h1 class = "fonte-bold cor-azul mb-4 display-4">Encontre um dentista ou uma clínica.</h1>
-            <h5 class = "mb-5">
-              Acesse a nossa rede credenciada
-              para encontrar um dentista ou uma 
-              clínica especializada mais próxima
-              de você.
-            </h5>
-            <p>
-              <a href="<?= BASE ?>rede-credenciada/busque-um-dentista" class ="botao-azul">Acessar a Rede Credenciada</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
+    <section  class = "fundo-branco">
+      <div class="container pt-5 pb-5" style = "">
+          <div class="row pt-5">
+            <div class="col-md-1"></div>
+             <div class="col-md">
+                <div class="texto-principal wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                  <img src="<?= BASE_IMG ?>extra/app-pf.png" class="m-auto img-fluid para-mobile" style = "width: 200px;">
+                  <img src="<?= BASE_IMG ?>extra/app-pf.png" class="img-fluid para-descktop" style = "">
+                </div>
+             </div>
+             <div class="col-md-1"></div>
+              <div class="col-md-5 wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">
+                <div class="texto-principal  pt-5 pb-5">
+                  <h1 class = "negrito mb-4 display-4">Facilidade na palma da sua mão.</h1>
+                  <p class = "fonte-18">Com o aplicativo Prover Odonto, você tem acesso rápido
+e fácil com toda a comodidade de onde você estiver</p>
+                  
+                  <p class = "fonte-18">- Dados cadastrais</p>
+                  <p class = "fonte-18">- Rede Credenciada completa</p>
+                  <p class = "fonte-18">- Carteirinha Virtual</p>
 
-<!--     <section id = "duvidas" class = "pt-5 pb-5">
-      <div class="container pt-5 pb-5">        
-        <div class="row m-auto pt-5 pb-5">
-
-          <div class="col-md-5 display-4 wow animate__animated animate__fadeInUp" data-wow-delay="0s">
-            <h1 class = "fonte-bold cor-azul display-4">Ficou com dúvidas?</h1>   
-            <p class = "fonte-18">Separamos algumas das perguntas mais frequentes para ajudar você.</p>        
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md wow animate__animated animate__fadeInUp" data-wow-delay="0.3s" >
-
-                <div class="accordion" id="accordionExample">
-                    <div class="card">
-                      <div class="card-header" id="headingOne">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            O que é carência?
-                          </button>
-                        </h2>
+                  <div class="row pt-2 pb-5">
+                      <div class="col-md-6">
+                          <a href="https://play.google.com/store/apps/details?id=br.com.odontosfera.proverodonto" target="_blank">
+                              <img src="<?= BASE_IMG ?>extra/google-play.png" width = "200px" alt="">
+                          </a>
                       </div>
-
-                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-
-                          Carência é o tempo de espera para realizar um procedimentos após contratar o plano dontológico Prover Odonto, que podem variar de 24 horas à 180 dias.<br><br>
-                          Fale com um consultor para conhecer os procedimentos que contem carências<br><br>
-                          <a href="<?= BASE ?>falar-com-um-consultor" target = "_blank" class = "botao-branco-menor">Fale com um Consultor</a>
-                        </div>
+                      <div class="col-md-6">
+                          <a href="https://apps.apple.com/br/app/prover-odonto/id1556482392" target="_blank">
+                              <img src="<?= BASE_IMG ?>extra/apple-store.png" width = "200px" alt="">
+                          </a>
                       </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingTwo">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Como funciona os agendamentos de consultas com o plano Prover Odonto?
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                          Aos adiquiri o plano Prover Odonto e cumprir as carências necessárias, o seu primeiro agendamento deverá ser feito através da nossa central de atendimento, onde você conhecerá os profissionais disponíveis na sua região. 
-
-                          Nas futuras consultas você pode ir diretamente em nosso prestador credenciado.<br><br>
-                          Central de atendimento: <a href="tel:08000029211" target = "_blank" class = "botao-linha">0800 002 9211</a> digite opção 1.
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="card">
-                      <div class="card-header" id="headingFive">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            É necessário autorização prévia ou retirar guias para a realização de consultas e procedimentos pela Prover Odonto?
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                        <div class="card-body">
-                          Alguns procedimentos precisam de liberação, porém não se preocupe, nossos dentistas credenciados lançam os procedimentos em sistema web e ele mesmo solicita liberação, o processo de liberação é rápido e fácil e não precisa da retirada de guias.<br><br> Você precisa apenas comparecer à consulta no dia e na hora marcados pelo dentista para realização do tratamento.
-                        </div>
-                      </div>
-                    </div>
-
-
-                    <div class="card">
-                      <div class="card-header" id="headingThree">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Como acessar a nossa rede credenciada Prover Odonto?
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                          A rede credenciada é onde você encontra todos os profissionais e clínicas que atendem pelo plano Prover Odonto. <br><br>
-                          Você pode acessar pelo aplicativo "Prover Odonto" disponível pela <a href = "https://apps.apple.com/br/app/prover-odonto/id1556482392" class = "botao-linha" target="_blank">Apple Store</a> ou <a href = "https://play.google.com/store/apps/details?id=br.com.odontosfera.proverodonto" class = "botao-linha" target="_blank">Google Play</a>. <br><br>
-                          Outra forma é através do nosso site na aba <a href = "<?= BASE ?>rede-credenciada/busque-um-dentista" class = "botao-linha" target="_blank">Rede Credenciada</a>.
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="card">
-                      <div class="card-header" id="headingheadingfuor">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseheadingfuor" aria-expanded="false" aria-controls="collapseheadingfuor">
-                            Quais são os locais credenciados e como posso utilizar meu plano Prover Odonto?
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseheadingfuor" class="collapse" aria-labelledby="headingheadingfuor" data-parent="#accordionExample">
-                        <div class="card-body">
-                          Com o Prover Odonto você conta com uma ampla rede de dentistas credenciados! Nossa rede é constantemente atualizada em nossas ferramentas de busca online. <Br><BR>Os atendimentos são realizados diretamente no consultório dos nossos prestadores credenciados de acordo com a disponibilidade de atendimento e agenda do dentista, para solicitar um atendimento basta ligar diretamente para nosso dentista credenciado e agendar o atendimento.
-
-
-
-                        </div>
-                      </div>
-                    </div>
-
-                    
                   </div>
 
-
+                </div>
+             </div>
+             <div class="col-md-1"></div>
+            
           </div>
-        </div>
       </div>
-    </section> -->
+    </section>
 
 
   <section class = "atalho-contrate pb-5">
