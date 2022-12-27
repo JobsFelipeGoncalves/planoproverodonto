@@ -73,7 +73,7 @@
           <div class="row  pb-5 pt-5 mt-5 ">
               <div class="col-sm-11 col-md-5 col-lg-5">
                 <div class="texto-principal wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
-                  <h1 class = "negrito mb-4 display-4 cor-azul"><b>Agora você tem mais motivos para Sorrir!</b> : )</h1>
+                  <h1 class = "negrito mb-4 display-4 cor-azul"><b>Mais motivos para Sorrir!</b></h1>
                   <h5 class = "fonte-28 cor-azul-escuro espaco-texto-1-5">Conheça os planos perfeitos para você, sua família ou empresa.</h5>
 <!--                   <h5 class = "fonte-28 cor-azul-fraco">Conheça o plano Dental Life!<br> O plano <b>individual/familiar</b> perfeito para você e sua família!</h5>
  -->                  <p class = "mt-5">
@@ -251,8 +251,10 @@
       <div class="container pb-5">
         <div class="row pt-3 text-center texto-esquerda-mobile">
           <div class="col-md pt-5 wow animate__animated animate__fadeIn" data-wow-delay="0s">
-              <h1 class = " fonte-bold mb-4 cor-azul display-4">Escolha o plano ideal, <br>contrate o Prover Odonto.</h1>
-              <h3>O plano odontológico perfeito para você, sua família ou empresa.</h3>
+              <!-- <h1 class = " fonte-bold mb-4 cor-azul display-4">Escolha o plano ideal, <br>contrate o Prover Odonto.</h1>
+              <h3>O plano odontológico perfeito para você, sua família ou empresa.</h3> -->
+              <h1 class = " fonte-bold mb-4 cor-azul display-4">Contrate seu plano sem sair de casa, com valor que cabe no seu bolso.</h1>
+              <h3>Perfeito para você sua família ou empresa.</h3>
           </div>
         </div>
         <div class="row pt-3"> 

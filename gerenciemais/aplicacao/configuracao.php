@@ -6,7 +6,7 @@
     include_once ("conexao.php");
 
     //url do cliente
-    $URL_BASE_CLIENT = "https://proverodonto.com.br/v2/";
+    $URL_BASE_CLIENT = "https://proverodonto.com.br/";
     //$URL_BASE_CLIENT = "http://localhost/proverodonto/";
 
     //bases Gerencie mais

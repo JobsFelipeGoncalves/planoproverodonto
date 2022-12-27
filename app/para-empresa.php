@@ -88,7 +88,8 @@
                 <div class="col-md mb-5">
                         <img src="<?= BASE_IMG ?>logo/prover_odonto_business_dental_life.png" alt="Logo Dental Life" class="img-fluid  wow animate__animated animate__fadeInUp" data-wow-delay="0s">
                         <h2 class = "fonte-medium mb-5 col-12 col-md-9 display-4 cor-azul-escuro wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
-                             Com o <strong class="bold cor-azul">plano odontológico Prover Odonto</strong> seus funcionários só tem vantagens.</strong>
+                             <!-- Com o <strong class="bold cor-azul">plano odontológico Prover Odonto</strong> seus funcionários só tem vantagens.</strong> -->
+                             Invista em seus colaboradores com a Prover Odonto.
                         </h2>
                 </div>
             </div>

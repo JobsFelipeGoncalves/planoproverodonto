@@ -5,7 +5,7 @@
     // $senha = "";
     // $banco = "proverodonto";
     // $porta = "";
-    $host = "162.214.188.99";
+    $host = "127.0.0.1";
     $usuario = "appwbc_podonto";
     $senha = "PoD$21@onto20";
     $banco = "appwbc_podonto";
