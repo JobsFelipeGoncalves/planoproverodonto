@@ -121,8 +121,9 @@
                     <span class = "fonte-12">&copy; <?= $AnoAtual = date('Y'); ?> <b>PROVER ODONTO - ANS Nº 42253-3</b>. Todos os Direitos Reservados.<br>PROVER ODONTOLOGIA LTDA - CNPJ 35.365314/0001-72<BR>
                     Responsável Técnico(a): Ariane Azedo - CRO/MS Nº 5524
                   </div>
-                  <div class="col-md-2 mt-3">
-                    <a href="https://www.gov.br/ans/pt-br/assuntos/operadoras/relacionamento-com-o-cliente" target="_blank"><img src="<?= BASE_IMG ?>extra/ans-logo.png" width = "150px"></a>
+                  <div class="col-md-2 mt-3 text-center">
+                    <a href="https://www.gov.br/ans/pt-br/assuntos/operadoras/relacionamento-com-o-cliente" target="_blank"><img src="<?= BASE_IMG ?>extra/ans-logo.png" width = "150px" class = "mb-1"></a><br>
+                    <a href="<?= BASE ?>require/docs/idss-22.pdf" target="_blank"><img src="<?= BASE_IMG ?>extra/idss-22.png" width = "110px"></a>
                   </div>
                 </div>
             </div>
