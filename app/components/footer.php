@@ -23,6 +23,10 @@
                   <li class="nav-item">
                     <a class="nav-link" href="<?= BASE ?>politica-de-privacidade">Política de privacidade</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="<?= BASE ?>institucional/resultado-idss">IDSS</a>
+                  </li>
+                 
                  
                 </ul>
             </div>

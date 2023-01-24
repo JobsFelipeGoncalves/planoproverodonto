@@ -3,7 +3,8 @@ include('url_response.php');
 $urlpatterns = array(
 
 //CONFIGURAÇÃO DE URL'S PADRÕES
-
+	'/institucional/resultado-idss' => 'resultado-idss.php',
+	
 	'/institucional/quem-somos' => 'quem-somos.php',
 	'/quem-somos' => 'quem-somos.php',		
 

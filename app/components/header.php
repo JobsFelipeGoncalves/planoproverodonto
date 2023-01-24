@@ -52,7 +52,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="<?= BASE ?>institucional/quem-somos"> <b> Quem somos </b> <br><span class = "fonte-regular fonte-14">Conheça o Prover Odonto</span></a>
                   <a class="dropdown-item" href="<?= BASE ?>institucional/quem-somos#fale-conosco"><b> Fale conosco</b> <br><span class = "fonte-regular fonte-14">Precisando falar com a gente?</span></a>
-                  <a class="dropdown-item" href="https://www.gov.br/ans/pt-br/assuntos/informacoes-e-avaliacoes-de-operadoras/qualificacao-ans" target= "_blank"><b> Resultado do IDSS &#8599;</b> <br><span class = "fonte-regular fonte-14">Índice de Desempenho da Saúde Suplementar</span></a>
+                  <a class="dropdown-item" href="<?= BASE ?>institucional/resultado-idss"><b> Resultado do IDSS/b> <br><span class = "fonte-regular fonte-14">Índice de Desempenho da Saúde Suplementar</span></a>
                 </div>
               </li>
               <li class="nav-item ">
