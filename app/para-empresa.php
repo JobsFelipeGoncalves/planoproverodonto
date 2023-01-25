@@ -167,7 +167,7 @@
                                     <img src="<?= BASE_IMG ?>extra/check-1.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
                                 </div>
                                 <div class="col col-md-10 fonte-18 ml-2">
-                                    Agendamento direto no consultório credenciado credenciado.
+                                    Agendamento direto no consultório credenciado.
                                 </div>
                             </div>
                             <hr>

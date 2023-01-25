@@ -67,7 +67,7 @@
               <div class="col-md-5 pt-3 mb-3 wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">
                 <div class="texto-principal pt-5 mb-5 pb-5">
                   <h1 class = "fonte-semi-bold cor-azul display-4">Seja nosso credenciado Prover Odonto</h1>
-                  <p class = "fonte-24">Junte-se a nosso time dos dentistas e clínicas credenciadas. Você só tem a ganhar!</p>
+                  <p class = "fonte-24">Junte-se ao nosso time dos dentistas e clínicas credenciadas. Você só tem a ganhar!</p>
                 </div>
              </div>
 

@@ -99,7 +99,7 @@
                 <div class="col-6 col-md mb-3 p-3  wow animate__animated animate__fadeIn" data-wow-delay="1s">
                     <img src="<?= BASE_IMG ?>icones/diagnosticos-pf.png" width = "50px" class="mb-2"><br>
                     <h5 class = "cor-azul negrito">Diagnósticos</h5>
-                    <p class = "cor-azul-escuro fonte-18 espaco-texto">Consultas preventivas e consultas periódicas</p>
+                    <p class = "cor-azul-escuro fonte-18 espaco-texto">Consultas preventivas e periódicas</p>
                 </div>
                 <div class="col-6 col-md mb-3 p-3  wow animate__animated animate__fadeIn" data-wow-delay="1s">
                     <img src="<?= BASE_IMG ?>icones/urgencia-pf.png" width = "50px" class="mb-2"><br>
