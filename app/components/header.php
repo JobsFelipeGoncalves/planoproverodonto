@@ -32,7 +32,7 @@
                   Nossos planos
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="<?= BASE ?>planos-odontologicos/para-voce-e-sua-familia"> <b> Para você e sua família </b><br><span class = "fonte-regular fonte-14">Plano odontológico individual/familiar</span></a>
+                  <!-- <a class="dropdown-item" href="<?= BASE ?>planos-odontologicos/para-voce-e-sua-familia"> <b> Para você e sua família </b><br><span class = "fonte-regular fonte-14">Plano odontológico individual/familiar</span></a> -->
                   <a class="dropdown-item" href="<?= BASE ?>planos-odontologicos/para-empresas"> <b> Para empresas ou prefeituras </b><br><span class = "fonte-regular fonte-14">Mais qualidade de vida para seus colaboradores</span></a>
                 </div>
               </li>
@@ -41,7 +41,7 @@
                   Rede credenciada
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="https://rede.odontosfera.com.br/RedeCredenciada.aspx?Operadora=422533" target="_blank"> <b> Rede de dentistas </b> <br><span class = "fonte-regular fonte-14">Encontre um dentista próximo de você</span></a>
+                  <a class="dropdown-item" href="<?= BASE ?>rede-credenciada"> <b> Rede de dentistas </b> <br><span class = "fonte-regular fonte-14">Encontre um dentista próximo de você</span></a>
                   <a class="dropdown-item" href="<?= BASE ?>seja-um-credenciado"> <b> Para Dentistas e Clínicas </b> <br><span class = "fonte-regular fonte-14">Seja um credenciado Prover Odonto</span></a>
                 </div>
               </li>
@@ -64,14 +64,8 @@
               <div class = " para-mobile">
                   <ul class="mt-5 mb-3 navbar-nav d-flex justify-content-between ">
                     <li class="nav-item mr-3 text-center">
-                      <a class="nav-link botao-laranja" href="<?= BASE ?>falar-com-um-consultor">
-                        Fale com consultor
-                      </a>
-                    </li>
-                    <li class="nav-item text-center ">
-                    
-                      <a class="nav-link botao-azul cor-branco" href="<?= BASE ?>contratar/prover-odonto-online">
-                        Solicitar meu plano
+                      <a class="nav-link botao-laranja" href="<?= BASE ?>consultor-pj">
+                        Fale com consultor PJ
                       </a>
                     </li>
                     <li class="nav-item text-center">
@@ -87,15 +81,15 @@
           </div>
           <ul class="para-descktop navbar-nav d-flex justify-content-between p-0">
               <li class="nav-item mr-3 mt-2" style = "margin-top: 11px !important;">
-                <a class="botao-topo-acao-laranja" href="<?= BASE ?>falar-com-um-consultor">
+                <a class="botao-topo-acao-laranja" href="<?= BASE ?>consultor-pj">
                   Fale com consultor
                 </a>
               </li>
-              <li class="nav-item mr-3">
+              <!-- <li class="nav-item mr-3">
                 <a class="nav-link botao-topo-acao" href="<?= BASE ?>contratar/prover-odonto-online">
                   Solicitar meu plano
                 </a>
-              </li>
+              </li> -->
               <li class="nav-item ">
                   <div class="btn-group">
                     <button type="button" class="btn botao-topo-acao-branco dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

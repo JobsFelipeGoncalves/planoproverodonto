@@ -30,7 +30,7 @@
                  
                 </ul>
             </div>
-            <div class="col-md mb-3">
+            <!-- <div class="col-md mb-3">
                 <h5 class = "cor-azul negrito mb-3">Para família</h5>
                   <ul class="nav flex-column">
                   <li class="nav-item">
@@ -46,7 +46,7 @@
                     <a class="nav-link" href="<?= BASE ?>aplicativo-meu-prover-odonto">Aplicativo Prover Odonto</a>
                   </li>
                 </ul>
-            </div>
+            </div> -->
             <div class="col-md mb-3">
                 <h5 class = "cor-azul negrito mb-3">Para empresa</h5>
                 <ul class="nav flex-column">

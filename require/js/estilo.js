@@ -65,7 +65,7 @@ $(document).ready(function(){
     ],
     navContainer: '#planos .custom-nav',
     loop: false,
-    margin: 10,
+    margin: 5,
     dots: false,
     autoWidth:false,
     autoplay:false,
@@ -81,7 +81,7 @@ $(document).ready(function(){
         },
 
         768: {
-          items:2,
+          items:1,
           nav: false
         },
 
@@ -91,7 +91,7 @@ $(document).ready(function(){
         },
 
         900: {
-          items:2,
+          items:1,
           nav: false
         }
     }
@@ -200,13 +200,57 @@ $(document).ready(function(){
     }
   });
 
+
+//PLANOS DE PREFEITURAS
+
+     // JavaScript Document
+  var owl = $('#marcas-clientes .owl-carousel');
+  owl.owlCarousel({
+    items: 2,
+    nav: false,
+    navText: [
+        '<img src="require/img/extra/left.png" alt="Seta esquerda" class="img-fluid" width="35">',
+        '<img src="require/img/extra/right.png" alt="Seta direita" class="img-fluid"  width="35">'
+    ],
+    navContainer: '#marcas-clientes .custom-nav',
+    loop: true,
+    autoplayTimeout:2500,
+    margin: 5,
+    dots: false,
+    autoWidth:false,
+    autoplay:true,
+    responsive:{
+        0:{
+          items:2.5,
+          nav:false
+        },
+
+        360: {
+          items:2.5,
+          nav: false
+        },
+
+        768: {
+          items:3,
+          nav: false
+        },
+
+        800: {
+          items:5,
+          nav: false
+        },
+
+        900: {
+          items:5,
+          nav: false
+        }
+    }
+  });
+
    $("#foneContato").mask("(99) 9 9999-9999");
    $("#celularJob").mask("(99) 9 9999-9999");
    $("#celularConsultor").mask("(99) 9 9999-9999");
    $("#CelularCredenciado").mask("(99) 9 9999-9999");
-
-
-
 
 
 });

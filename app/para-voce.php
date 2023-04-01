@@ -104,7 +104,7 @@
                 <div class="col-6 col-md mb-3 p-3  wow animate__animated animate__fadeIn" data-wow-delay="1s">
                     <img src="<?= BASE_IMG ?>icones/urgencia-pf.png" width = "50px" class="mb-2"><br>
                     <h5 class = "cor-azul negrito">Urgência</h5>
-                    <p class = "cor-azul-escuro fonte-18 espaco-texto">Alívio de dores, curativos simples e reparos rápidos</p>
+                    <p class = "cor-azul-escuro fonte-18 espaco-texto">Alívio de dores e curativos simples</p>
                 </div>
                 <div class="col-6 col-md mb-3 p-3  wow animate__animated animate__fadeIn" data-wow-delay="1s">
                     <img src="<?= BASE_IMG ?>icones/radiologia-pf.png" width = "50px" class="mb-2"><br>

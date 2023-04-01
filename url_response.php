@@ -5,8 +5,8 @@ if(!defined('BASE_DEV')){
 }
 
 if(!defined('BASE')){
-   // define('BASE','http://localhost/proverodonto/');
-   define('BASE','https://www.proverodonto.com.br/');
+   define('BASE','http://localhost/proverodonto/');
+   //define('BASE','https://www.proverodonto.com.br/');
 }
 
 if(!defined('BASE_IMG')){
@@ -26,8 +26,8 @@ if(!defined('BASE_JS')){
 }
 
 if(!defined('PROJECT_DIR'))
-  // define('PROJECT_DIR', 'proverodonto');
-  define('PROJECT_DIR', '/');
+  define('PROJECT_DIR', 'proverodonto');
+  //define('PROJECT_DIR', '/');
 
 if(!defined('APPLICATION_DIR'))
   define('APPLICATION_DIR', 'app');

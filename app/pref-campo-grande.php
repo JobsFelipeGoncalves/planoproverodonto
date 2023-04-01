@@ -98,7 +98,7 @@
     <section id = "para-empresas" class = "">
       <div class="container pt-5" style = "">
           <div class="row pt-5">
-              <div class="col-md-6 pt-3 wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s">
+              <div class="col-md-6 pt-3 wow animate__animated animate__fadeIn" data-wow-delay="0.1s">
                 <div class="texto-principal pt-5 pb-3">
                   <!-- <h1 class = "negrito mb-4 display-4 cor-azul"></h1> -->
                   <img src="<?= BASE_IMG ?>pref/brasao-pref-campo-grande.png" class="img-fluid mb-3" 
@@ -120,7 +120,7 @@
                 </div>
              </div>
 
-             <div class="col-md wow animate__animated animate__fadeInRight" data-wow-delay="0.1s">
+             <div class="col-md wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                <img src="<?= BASE_IMG ?>extra/fundo-para-familia-dois.png" class="img-fluid" style = "margin-top: 0px;">
              </div>
           </div>
@@ -149,7 +149,7 @@
                 <div class="col-6 col-md mb-3 p-3  wow animate__animated animate__fadeIn" data-wow-delay="1s">
                     <img src="<?= BASE_IMG ?>icones/urgencia-pf.png" width = "50px" class="mb-2"><br>
                     <h5 class = "cor-azul negrito">Urgência</h5>
-                    <p class = "cor-azul-escuro fonte-18 espaco-texto">Alívios de dores, curativos simples e reparos rápidos</p>
+                    <p class = "cor-azul-escuro fonte-18 espaco-texto">Alívios de dores e curativos simples</p>
                 </div>
                 <div class="col-6 col-md mb-3 p-3  wow animate__animated animate__fadeIn" data-wow-delay="1s">
                     <img src="<?= BASE_IMG ?>icones/radiologia-pf.png" width = "50px" class="mb-2"><br>
@@ -256,7 +256,7 @@
                                     <img src="<?= BASE_IMG ?>extra/check.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
                                 </div>
                                 <div class="col col-md-10 fonte-18 ml-2">
-                                    Isenção das carências em Campanhas de Adesão</span>
+                                    Isenção das carências parciais em Campanhas de Adesão ou acima de 30 vidas isenção total
                                 </div>
                             </div>
                             <hr>
@@ -299,29 +299,30 @@
     </section> -->
 
 
-
-     <section id="cobertura-100" class = "fundo-azul pt-5 pb-5">
+     <section id="cobertura" class = "fundo-azul pt-5 pb-5">
         <div class="container pt-5 pb-5">
             <div class="row text-left">
-                <div class="col-md-7 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
-                    <img src="<?= BASE_IMG ?>icones/cobertura-pf.png" width = "70px" class="mb-2"><br>
-                    <h1 class = "cor-branco display-4  mb-5"><br> <span class = "fonte-extra-bold">100% de cobertura em seus tratamentos odontológicos.</span> <br>
-                    </h1>
+                <div class="col-md-6 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
 
-                    <div class="row">
-                        <div class="col">                           
-
-                            <h4 class = "">
-                                Pagando apenas a mensalidade, você garante 100% de cobertura em todos os tratamentos bucais.
-                            </h4>
-
-                            <!-- <h4 class = "">O<span class = "negrito"> Prover Odonto - Dental Life</span> é sem coparticipação. Ou seja, ao realizar sua consultas você não paga na hora da consulta, O você não precisa pagar pela sua ida ao dentista.
-                            O único custo que você terá, a sua mensalidade.</h4> -->
+                    <div class="row mt-5">
+                        <div class="col-12 col-sm-12 col-lg-12">
+                            <h1 class = "cor-branco display-2 fonte-extra-bold"><span class = "fonte-extra-bold cor-amarelo">100% </span></h1>
+                            <p class ="fonte-extra-bold" style = "font-size: 50px; margin-top: -20px; line-height:  1 !important;">de cobertura</p>
+                            <p class=  "fonte-16">Conforme rol de procedimentos odontológicos editado pela ANS (Agência Nacional de Saúde Suplementar)</p>
                         </div>
                     </div>
 
+                    <div class="row mt-5">
+                        <div class="col-12 col-sm-12 col-lg-12 ">
+                            <h1 class = "cor-branco display-2 fonte-extra-bold"><span class = "fonte-extra-bold cor-amarelo">+ 140 </span></h1>
+                            <p class ="fonte-extra-bold" style = "line-height: 1 !important; font-size: 50px; margin-top: -20px;">procedimentos cobertos</p>
+                        </div>
+                    </div>
+                    
+
                 </div>
-                <div class="col-md wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">
+                <div class="col-md wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                    <img src="<?= BASE_IMG ?>extra/procedimentos_coberturas.png" class = "img-fluid">
                 </div>
             </div>
         </div>
@@ -343,20 +344,16 @@
             <!-- <div class="col-md-1"></div> -->
             <div class="col-md-6 m-auto text-center texto-centro-mobile wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
 
-                <div class="box-valores box-valores-pf">   
-                  <h1 class="mt-3 negrito cor-azul display-4 wow animate__animated animate__heartBeat" data-wow-delay="1s">R$ 24,90<sub class = "italico normal fonte-18">/mês</sub></h1>
-                  <p class=" fonte-12 italico">*Valor mensal por pessoa</p>
+               <!--  <div class="box-valores box-valores-pf">   
+                  <h1 class="mt-3 negrito cor-azul display-4 wow animate__animated animate__heartBeat" data-wow-delay="1s">R$ 24,90<sub class = "italico normal fonte-18">/mês por pessoa</sub></h1>
+                  <p class=" fonte-12 italico">*Consulte a tabela de valores da sua prefeitura.</p>
                 </div>
-                  
+ -->                  
 
                   <hr>
                  <div class="row mb-5 mt-5 mb-5">
-                    <div class="col-md-6 mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
-                      <a href="https://marketplace.odontosfera.com.br/AdesaoOnline/03501509000106" target="_blank" class = "botao-azul">Contratar on-line</a>
-                    </div>
-                    <div class="col-md-6 mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="1.0s" >
-                     <a class = "botao-branco" href="<?= BASE ?>falar-com-um-consultor" target="_blank">Falar com um consultor</a>
-                      <!-- <?= BASE ?>falar-com-um-consultor -->
+                    <div class="col-md-6 m-auto centro mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
+                      <a href="<?= BASE ?>falar-com-um-consultor" target="_blank" class = "botao-azul">Fale com um consultor</a>
                     </div>
                   </div>
             </div>

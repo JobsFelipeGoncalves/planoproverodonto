@@ -74,7 +74,7 @@
               <div class="col-sm-11 col-md-5 col-lg-5">
                 <div class="texto-principal wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
                   <h1 class = "negrito mb-4 display-4 cor-azul"><b>Mais motivos para Sorrir!</b></h1>
-                  <h5 class = "fonte-28 cor-azul-escuro espaco-texto-1-5">Conheça os planos perfeitos para você, sua família ou empresa.</h5>
+                  <h5 class = "fonte-28 cor-azul-escuro espaco-texto-1-5">Conheça os plano perfeito para você, sua família ou empresa.</h5>
 <!--                   <h5 class = "fonte-28 cor-azul-fraco">Conheça o plano Dental Life!<br> O plano <b>individual/familiar</b> perfeito para você e sua família!</h5>
  -->                  <p class = "mt-5">
                       <div class="row">
@@ -215,10 +215,10 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <a href="<?= BASE ?>falar-com-um-consultor" >
+            <a href="<?= BASE ?>consultor-pj" >
               <div class="atalho-index-box" >                
                   <img src="<?= BASE_IMG ?>extra/fale-com-um-consultor.png" width = "100"><br>
-                  Falar com um consultor  &#10140;             
+                  Falar com um consultor PJ &#10140;             
               </div>
             </a>            
           </div>
@@ -257,84 +257,14 @@
               <h3>Perfeito para você sua família ou empresa.</h3>
           </div>
         </div>
-        <div class="row pt-3"> 
+        <div class="row pt-3 m-auto"> 
 
 
-          <div class="col-md-2"></div>
+          <div class="col-md-4"></div>
 
-          <div class="col-md-8 pt-5 pb-5 ">
-            <div class="owl-carousel owl-theme">
-              <div class="item">
-
-                  <div class="card planos-box planos-box-pf text-center" style = "">
-                    <div class="card-body">
-                      <span class="card-text fonte-12 cor-cinza-escuro">PARA VOCÊ E SUA FAMÍLIA</span>
-                      <img src="<?= BASE_IMG ?>logo/prover_odonto_dental_life.png" width = "200" class="img-fluid">
-
-                      <h2 class="card-title negrito cor-azul">R$ 39,90 <sub class = "italico normal fonte-18">/mês</sub></h2>
-                      <p class="card-text fonte-12 italico"></p>
-                      <ul class="list-group text-left list-group-flush text-left fonte-14">
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-3 col-md-2 m-1">
-                              <img src="<?= BASE_IMG ?>icones/urgencia-pf.png" style = "width: 40px;">
-                            </div>
-                            <div class="col col-md m-1">
-                              Urgência <br><span class = "fonte-12 italico">(Alívios de dores)</span>
-                            </div>
-                          </div>  
-                        </li>
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-3 col-md-2 m-1">
-                              <img src="<?= BASE_IMG ?>icones/endodontia-pf.png" style = "width: 40px;">
-                            </div>
-                            <div class="col col-md m-1">
-                              Endodontia <br><span class = "fonte-12 italico">(Tratamento de canal)</span>
-                            </div>
-                          </div> 
-                        </li>
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-3 col-md-2 m-1">
-                              <img src="<?= BASE_IMG ?>icones/dentistica-pf.png" style = "width: 40px;">
-                            </div>
-                            <div class="col col-md m-1">
-                              Dentística <br><span class = "fonte-12 italico">(Restaurações dentárias)</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-3 col-md-2 m-1">
-                              <img src="<?= BASE_IMG ?>icones/periodontia-pf.png" style = "width: 40px;">
-                            </div>
-                            <div class="col col-md m-1">
-                              Periodontia <br><span class = "fonte-12 italico">(Tratamento de gengivas)</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-3 col-md-2 m-1">
-                              <img src="<?= BASE_IMG ?>icones/cirurgias-pf.png" style = "width: 40px;">
-                            </div>
-                            <div class="col col-md m-1">
-                              Cirurgias <br><span class = "fonte-12 italico">(Níveis ambulatoriais)</span>
-                            </div>
-                          </div>
-                        </li>                        
-                        <li class="list-group-item"></li>
-                      </ul>
-
-                    </div>
-                    <div class="card-body ">
-                        <a href="<?= BASE ?>planos-odontologicos/para-voce-e-sua-familia" class = "botao-azul">Saiba mais &#10140;</a>
-                    </div>
-                  </div>
-
-              </div>
-              <div class="item">
+          <div class="col-md-4 pt-5 pb-5 m-auto">
+            <div class="owl-carousel owl-theme m-auto">
+              <div class="item m-auto">
                 <div class="card planos-box planos-box-pj text-center" >
                   <div class="card-body ">
                      <span class="card-text fonte-12 cor-cinza-escuro">PARA SUA EMPRESA</span>
@@ -381,7 +311,7 @@
                                 Periodontia <br><span class = "fonte-12 italico">(Tratamento de gengivas)</span>
                               </div>
                             </div>
-                          </li>
+                          </li><!-- 
                           <li class="list-group-item">
                             <div class="row">
                               <div class="col-3 col-md-2 m-1">
@@ -391,12 +321,15 @@
                                 Cirurgias <br><span class = "fonte-12 italico">(Níveis ambulatoriais)</span>
                               </div>
                             </div>
-                          </li>                        
-                          <li class="list-group-item fonte-14">Isenção das carências acima de 30 vidas</li>  
+                          </li>     -->    
                       </ul>
                     </div>
                     <div class="card-body ">
-                        <a href="<?= BASE ?>planos-odontologicos/para-empresas" class = "botao-laranja">Saiba mais &#10140;</a>
+                        <a href="<?= BASE ?>planos-odontologicos/para-empresas" class = "botao-laranja">Mais coberturas &#10140;</a>
+
+                        <p class = "pt-3 fonte-14 italico centro">
+                        Isenção das carências acima de 30 vidas</li> 
+                        </p>
                     </div>
                 </div>
 
@@ -407,7 +340,7 @@
             </div><!-- owl-theme-->
           </div>
 
-          <div class="col-md-2"></div>
+          <div class="col-md-4"></div>
 
         </div>
       </div>
@@ -472,11 +405,11 @@ e fácil com toda a comodidade de onde você estiver</p>
 
                   <div class="row mb-5 mt-5">
                     <div class="col-md-2"></div>
-                    <div class="col-12 col-md-4 mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                    <!-- div class="col-12 col-md-4 mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
                       <a href="<?= BASE ?>contratar/prover-odonto-online" class = "botao-azul">Contratar meu plano</a>
-                    </div>
-                    <div class="col-12 col-md-4 mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="1.3s">
-                      <a href="<?= BASE ?>falar-com-um-consultor" class = "botao-branco">Falar com um consultor</a>
+                    </div> -->
+                    <div class="col-12 col-md-4 m-auto centro mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="1.3s">
+                      <a href="<?= BASE ?>consultor-pj" class = "botao-azul">Falar com um consultor</a>
 
                     </div>
                     <div class="col-md-2"></div>
@@ -490,7 +423,7 @@ e fácil com toda a comodidade de onde você estiver</p>
     </div>    
   </section>
 
-    <?php require "components/footer.php"; ?>
+  <?php require "components/footer.php"; ?>
   <script src="<?= BASE_JS ?>jquery.js"></script>  
   <script src="<?= BASE_JS ?>wow.js"></script>
   <script src="<?= BASE_JS ?>estilo.js"></script>

@@ -90,15 +90,15 @@
 
 
               <div class="col-md-6 wow animate__animated animate__fadeIn" data-wow-delay="0.1s">
-                <div class="texto-principal pt-3 mb-5 pb-5">
+                <div class="texto-principal pt-5 mb-5 pb-5">
                   <!-- <h1 class = "negrito mb-4 display-4 cor-azul"></h1> -->
                   
                   <h1 class = "fonte-semi-bold cor-azul display-4">Encontre um Dentista ou Clínica credenciada perto de você!</h1>
-<!--                   <p class = "fonte-18">Acesse a nossa rede credenciada para encontrar um dentista ou uma clínica especializada mais próxima de você.</p>
- -->
-                  <div class="row mt-3">
+                  <div class="row mt-5">
                       <div class="col-12 col-md-12">
-                          <form id = "form-rede-credenciada" class = "form-principal" method="post" action="<?= BASE ?>rede-credenciada/dentistas-e-clinicas">
+                            <a href="https://rede.odontosfera.com.br/RedeCredenciada.aspx?Operadora=422533" class ="botao-azul" target="_blank">Acessar rede credenciada &#8599;</a>
+
+                          <!-- form id = "form-rede-credenciada" class = "form-principal" method="post" action="<?= BASE ?>rede-credenciada/dentistas-e-clinicas">
                             <div class="row">
                               <div class="form-group col-12 col-md-6">
                                  <label for="estadoCred">Selecione seu estado <span class = "fonte-10 fonte-regular">(Obrigatório)</span></label>
@@ -126,20 +126,10 @@
                                         }
 
                                     ?>
-                                    <!-- <option value="" selected="selected"></option>
-                                    
-                                    <option value="São Paulo">São Paulo</option>
-                                    <option value="Paraná">Paraná</option> -->
                                   </select>
                               </div>
                               <div class="form-group col-12 col-md-6">
-                                 <label for="cidadeCred">Selecione sua cidade <span class = "fonte-10 fonte-regular">(Obrigatório)</span></label><!-- 
-                                  <select class="custom-select" required>
-                                    <option value="" selected="selected"></option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                  </select> -->
+                                 <label for="cidadeCred">Selecione sua cidade <span class = "fonte-10 fonte-regular">(Obrigatório)</span></label>
                                   <select class="custom-select cidadeCred" name = "cidadeCred" id="cidadeCred" required>
                                             <option value = "" checked>Selecione o estado</option>
                                         </select>
@@ -154,8 +144,8 @@
 
                                   
                                   
-                                </form>
-                            <!-- <a href="<?= BASE ?>rede-credenciada/busque-um-dentista/profissionais" class ="botao-azul">Acessar Rede Credenciada</a> -->
+                                </form> -->
+                        
                       </div>
                   </div>
                   

@@ -152,11 +152,11 @@
         <div class="row pt-3"> 
 
 
-          <div class="col-md-2"></div>
+          <div class="col-md-4"></div>
 
-          <div class="col-md-8 pt-5 pb-5 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
+          <div class="col-md-4 pt-5 pb-5 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
             <div class="owl-carousel owl-theme">
-              <div class="item">
+             <!--  <div class="item">
 
                   <div class="card planos-box planos-box-pf " style = "">
                     <div class="card-body">
@@ -170,10 +170,10 @@
                         <a href="<?= BASE ?>planos/para-voce" class = "botao-branco">Quero conhecer &#10140;</a>
                     </div>
                   </div>
-
+ -->
               </div>
-              <div class="item">
-                <div class="card planos-box planos-box-pj " >
+              <div class="item m-auto">
+                <div class="card planos-box planos-box-pj m-auto" >
                   <div class="card-body ">
                     
                       <img src="<?= BASE_IMG ?>logo/prover_odonto_business_dental_life.png" width = "160" class="img-fluid">
@@ -195,7 +195,7 @@
             </div><!-- owl-theme-->
           </div>
 
-          <div class="col-md-2"></div>
+          <div class="col-md-4"></div>
 
         </div>
       </div>

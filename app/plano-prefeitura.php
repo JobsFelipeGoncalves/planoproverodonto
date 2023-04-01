@@ -2,28 +2,28 @@
 <html lang="pt-br">
 <head>
  
-<title> Plano Odontológico Empresarial | Business Dental Life | Prover Odonto</title>
+<title>Plano Odontológico para Servidores Públicos | Prover Odonto</title>
 
 
   <meta charset="UTF-8">
   <meta name="viewport"              content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <meta name="description"           content="Plano odontológico empresarial com 100% de cobertura por apenas R$ 24,90. Sem carência em campanhas de adesão ou acima de 30 vidas"/> 
+  <meta name="description"           content="Plano odontológico para servidores públicos com 100% de cobertura a partir de R$ 24,90. "/> 
   <meta name="keywords"              content="plano odontológico prover odonto, prover odonto, prover, odonto, bussiness, business dental life, life, para empresaas,dental, dente, dente de leite, crianças, odontologia, odontológico, canal, tratamento de canal, aparelhos, colocando aparelhos, extrações de dentes, dentes do siso, siso, plano odontológico, plano odontológico familiar, plano odontológico individual, plano odontológico para empresas, plano empresarial, plano familiar, plano individual, dentistas, clínica odontológica, consultas, urgência, emergência,  radiologia, odontopediatria, periodontia, tratamento de gengiva, endodontia, tratamento de canal, dentística, restaurações, cirurgias, rede de dentista, Dourados, Campo Grande, Ivinhema, Nova Andradina, Angélica, Aquidauana, Bonito, index, MS, Mato Grosso do Sul"/>
   <meta name="robots"                content="index, follow" />
 
   <meta property="og:locale"       content="pt_BR">
-  <meta property="og:site_name"    content="Prover Odonto - Plano odontológico empresarial ">
-  <meta property="og:url"          content="<?= BASE ?>planos-odontologicos/para-empresas" />
+  <meta property="og:site_name"    content="Prover Odonto - Plano odontológico para servidores públicos ">
+  <meta property="og:url"          content="<?php echo $URL_ATUAL = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
   <meta property="og:type"         content="website" />
-  <meta property="og:title"        content="Plano Odontológico Empresarial | Business Dental Life | Prover Odonto" />
-  <meta property="og:description"  content="Plano odontológico empresarial com 100% de cobertura por apenas R$ 24,90. Sem carência em campanhas de adesão ou acima de 30 vidas" />
+  <meta property="og:title"        content="Plano Odontológico para Servidores Públicos | Prover Odonto" />
+  <meta property="og:description"  content="Plano odontológico para servidores públicos com 100% de cobertura a partir de R$ 24,90." />
   <meta property="og:image"        content="<?= BASE_IMG ?>logo/logo_prover_odonto.png" />
   <meta name="author"              content="Felipe Goncalves - l.felipe.m.goncalves@gmail.com | Marketing Grupo Prover"/>
   
 
-  <link rel="canonical" href="<?= BASE ?>planos-odontologicos/para-empresas">
+  <link rel="canonical" href="<?php echo $URL_ATUAL = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
 
   <link rel="icon" href="<?= BASE_IMG ?>logo/logo_prover_odonto_icon.png">
   <link rel="stylesheet" href="<?= BASE_CSS ?>bootstrap.min.css">
@@ -66,30 +66,29 @@
     <section id = "para-empresas" class = "">
       <div class="container pt-5" style = "">
           <div class="row ">
-              <div class="col-md-5 pt-3 wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s">
+              <div class="col-md-5 pt-3 wow animate__animated animate__fadeIn" data-wow-delay="0.1s">
                 <div class="texto-principal pt-5 pb-3">
                   <!-- <h1 class = "negrito mb-4 display-4 cor-azul"></h1> -->
-                  <h1 class = "fonte-bold cor-laranja-escuro display-4">Plano odontológico para a sua empresa</h1>
-                  <p class = "fonte-24">Sem comparticipação e com inclusão dependentes e agregados.</p>                  
+                  <h1 class = "fonte-extra-bold cor-azul-escuro display-4">Plano odontológico para <span class = "cor-laranja-escuro "> servidores publicos</span></h1>
+                  <p class = "fonte-24">Conheça as nossas coberturas com o melhor custo-benefício para você e sua família.</p>                  
                 </div>
              </div>
 
-             <div class="col-md-7 wow animate__animated animate__fadeInRight" data-wow-delay="0.1s">
-               <img src="<?= BASE_IMG ?>extra/fundo-para-empresa.png" class="img-fluid" style = "margin-top: -20px;">
+             <div class="col-md-7 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+               <img src="<?= BASE_IMG ?>extra/capa_servidor_publico.png" class="img-fluid" style = "margin-top: -20px;">
              </div>
           </div>
       </div>
       </div>
     </section>
 
+
     <section id = "para-empresas-beneficios" class="para-empresas-beneficios pb-5">
         <div class="container pt-5 pb-3">
-            <div class="row m-auto">
-                <div class="col-md mb-5">
-                        <img src="<?= BASE_IMG ?>logo/prover_odonto_business_dental_life.png" alt="Logo Dental Life" class="img-fluid  wow animate__animated animate__fadeInUp" data-wow-delay="0s">
-                        <h2 class = "fonte-medium mb-5 col-12 col-md-9 display-4 cor-azul-escuro wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
-                             <!-- Com o <strong class="bold cor-azul">plano odontológico Prover Odonto</strong> seus funcionários só tem vantagens.</strong> -->
-                             Invista em seus colaboradores com a Prover Odonto.
+            <div class="row">
+                <div class="col-md mb-5 ">
+                        <h2 class = "fonte-bold mb-5 col-12 col-md-9 display-4 cor-azul-escuro wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
+                             Vantagens e coberturas que só o plano Prover Odonto oferece para você, servidor público.
                         </h2>
                 </div>
             </div>
@@ -141,12 +140,12 @@
             </div>
 
 
-            <div class="box-beneficios-pra-voce fundo-laranja cor-preto negrito mb-5 pb-1" style = "border-radius: 5px;">
+            <div class="box-beneficios-pra-voce fundo-azul cor-branco negrito mb-5 pb-1" style = "border-radius: 5px;">
                 <div class="row m-auto  p-4 wow animate__animated animate__fadeInUp" data-wow-delay="0s">
                         <div class="col-md-4">
                             <div class="row mb-4 mt-2">
                                 <div class="col-2 col-md-1 fonte-18 d-flex align-items-center">
-                                    <img src="<?= BASE_IMG ?>extra/check-1.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
+                                    <img src="<?= BASE_IMG ?>extra/check.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
                                 </div>
                                 <div class="col col-md-10 fonte-18 ml-2">
                                     Ampla rede credenciada por todo estado do Mato Grosso do Sul <span class="italico fonte-14">(Área de abrangência)</span>
@@ -155,7 +154,7 @@
                              <hr>
                             <div class="row mb-4 mt-2">
                                 <div class=" col-2 col-md-1 fonte-18 d-flex align-items-center">
-                                    <img src="<?= BASE_IMG ?>extra/check-1.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
+                                    <img src="<?= BASE_IMG ?>extra/check.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
                                 </div>
                                 <div class=" col col-md-10 fonte-18 ml-2">
                                     Liberdade de escolher o dentista credenciado na especialidade desejada
@@ -164,7 +163,7 @@
                             <hr>
                             <div class="row mb-4 mt-2">
                                 <div class="col-2 col-md-1 fonte-18 d-flex align-items-center">
-                                    <img src="<?= BASE_IMG ?>extra/check-1.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
+                                    <img src="<?= BASE_IMG ?>extra/check.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
                                 </div>
                                 <div class="col col-md-10 fonte-18 ml-2">
                                     Agendamento direto no consultório credenciado.
@@ -173,7 +172,7 @@
                             <hr>
                             <div class="row mb-2 mt-2">
                                 <div class="col-2 col-md-1 fonte-18 d-flex align-items-center">
-                                    <img src="<?= BASE_IMG ?>extra/check-1.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
+                                    <img src="<?= BASE_IMG ?>extra/check.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
                                 </div>
                                 <div class="col col-md-10 fonte-18 ml-2">
                                     Central de Atendimento e Relacionamento
@@ -189,7 +188,7 @@
                         <div class="col-md-4 ">
                             <div class="row mb-2 mt-2">
                                 <div class="col-2 col-md-1 fonte-18 d-flex align-items-center">
-                                    <img src="<?= BASE_IMG ?>extra/check-1.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
+                                    <img src="<?= BASE_IMG ?>extra/check.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
                                 </div>
                                 <div class="col col-md-10 fonte-18 ml-2">
                                     Processo rápido e sem burocracia na aprovação de tratamentos
@@ -198,7 +197,7 @@
                             <hr>
                             <div class="row mb-2 mt-2">
                                 <div class="col-2 col-md-1 fonte-18 d-flex align-items-center">
-                                    <img src="<?= BASE_IMG ?>extra/check-1.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
+                                    <img src="<?= BASE_IMG ?>extra/check.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
                                 </div>
                                 <div class="col col-md-10 fonte-18 ml-2">
                                     Inclusão de familiares com valores adicionais e sem limite de idade
@@ -208,16 +207,16 @@
                             
                             <div class="row mb-2 mt-2">
                                 <div class="col-2 col-md-1 fonte-18 d-flex align-items-center">
-                                    <img src="<?= BASE_IMG ?>extra/check-1.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
+                                    <img src="<?= BASE_IMG ?>extra/check.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
                                 </div>
                                 <div class="col col-md-10 fonte-18 ml-2">
-                                    Isenção das carências em Campanhas de Adesão ou acima de 30 vidas</span>
+                                    Isenção das carências parciais em Campanhas de Adesão ou acima de 30 vidas isenção total</span>
                                 </div>
                             </div>
                             <hr>
                             <div class="row mb-2 mt-2">
                                 <div class="col-2 col-md-1 fonte-18 d-flex align-items-center">
-                                    <img src="<?= BASE_IMG ?>extra/check-1.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
+                                    <img src="<?= BASE_IMG ?>extra/check.png" class = "d-flex  justify-content-center" style="width: 20px; height: 20px;"> 
                                 </div>
                                 <div class="col col-md-10 fonte-18 ml-2">
                                     Desconto direto em folha. Contratação compulsoria ou livre adesão
@@ -230,12 +229,12 @@
         </div>
     </section>
 
-    <section style = "padding: 0px; margin: 0px; height: 0px !important;" class = "para-descktop">
+    <section style = "margin: 0px; padding: 0px; margin-top: -600px;" class = "para-descktop">
         <div class="container">
-            <div class="row m-auto">
+            <div class="row m-auto wow animate__animated animate__fadeIn" data-wow-delay="0s">
                 <div class="col-2"></div>
                 <div class="col-md-8">
-                    <img src="<?= BASE_IMG ?>extra/beneficios-pra-empresa.png" class="img-fluid" style = "border: 0px solid red; margin-top: -495px;">
+                    <img src="<?= BASE_IMG ?>extra/beneficios-pra-vc.png" class="img-fluid" style = "border: 0px solid red; margin-left: -30px;">
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -244,64 +243,133 @@
 
 
 
-     <section id="cobertura-100" class = "fundo-azul pt-5 pb-5">
+     <section id="cobertura" class = "fundo-azul pt-5 pb-5">
         <div class="container pt-5 pb-5">
             <div class="row text-left">
-                <div class="col-md-8 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
-                    <img src="<?= BASE_IMG ?>icones/cobertura-pf.png" width = "70px" class="mb-2"><br>
-                    <h1 class = "cor-branco display-4  mb-5"><br> <span class = "fonte-extra-bold">100% de cobertura em todos os procedimentos odontológicos.</span> <br>
-                    </h1>
+                <div class="col-md-6 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
 
-                    <div class="row">
-                        <div class="col">                           
-
-                            <h4 class = "">
-                            Conforme rol de procedimentos odontológicos editado pela ANS (Agência Nacional de Saúde Suplementar).
-                            </h4>
-
-                            <!-- <h4 class = "">O<span class = "negrito"> Prover Odonto - Dental Life</span> é sem coparticipação. Ou seja, ao realizar sua consultas você não paga na hora da consulta, O você não precisa pagar pela sua ida ao dentista.
-                            O único custo que você terá, a sua mensalidade.</h4> -->
+                    <div class="row mt-5">
+                        <div class="col-12 col-sm-12 col-lg-12">
+                            <h1 class = "cor-branco display-2 fonte-extra-bold"><span class = "fonte-extra-bold cor-amarelo">100% </span></h1>
+                            <p class ="fonte-extra-bold" style = "font-size: 50px; margin-top: -20px; line-height:  1 !important;">de cobertura</p>
+                            <p class=  "fonte-16">Conforme rol de procedimentos odontológicos editado pela ANS (Agência Nacional de Saúde Suplementar)</p>
                         </div>
                     </div>
 
+                    <div class="row mt-5">
+                        <div class="col-12 col-sm-12 col-lg-12 ">
+                            <h1 class = "cor-branco display-2 fonte-extra-bold"><span class = "fonte-extra-bold cor-amarelo">+ 140 </span></h1>
+                            <p class ="fonte-extra-bold" style = "line-height: 1 !important; font-size: 50px; margin-top: -20px;">procedimentos cobertos</p>
+                        </div>
+                    </div>
+                    
+
                 </div>
-                <div class="col-md wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">
+                <div class="col-md wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                    <img src="<?= BASE_IMG ?>extra/procedimentos_coberturas.png" class = "img-fluid">
                 </div>
             </div>
+        </div>
+    </section>
+
+
+    <section class = "marcas-clientes fundo-branco" id = "marcas-clientes">
+        <div class="container pt-5 pb-5">
+            <div class="row m-auto pt-5 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
+                <div class="col-12 col-sm-8 col-lg-8 mt-3 mb-3">
+                    <h1 class="fonte-bold display-4 cor-azul-escuro">Servidores públicos que já utilizam o plano Prover Odonto.</h1>
+                </div>
+            </div>
+            <div class="row m-auto pt-3 pb-5 mb-3">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="col">                    
+                            <img src="<?= BASE_IMG ?>clientes/pref_ivinhema.png" width = "200" class = "pt-4">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col">                    
+                            <img src="<?= BASE_IMG ?>clientes/pref_campo_grande.png" width = "200" class = "pt-4">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col">                    
+                            <img src="<?= BASE_IMG ?>clientes/pref_dourados.png" width = "200" class = "pt-4">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col">                    
+                            <img src="<?= BASE_IMG ?>clientes/pref_aquidauana.png" width = "200" class = "pt-4">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col">                    
+                            <img src="<?= BASE_IMG ?>clientes/pref_bataguassu.png" width = "200" class = "pt-4">
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col">                    
+                            <img src="<?= BASE_IMG ?>clientes/pref_bataypora.png" width = "200" class = "pt-4">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col">                    
+                            <img src="<?= BASE_IMG ?>clientes/pref_camera_antonio_joao.png" width = "200" class = "pt-4">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col">                    
+                            <img src="<?= BASE_IMG ?>clientes/pref_fatima_do_sul.png" width = "200" class = "pt-4">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col">                    
+                            <img src="<?= BASE_IMG ?>clientes/pref_jardim.png" width = "200" class = "pt-4">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col">                    
+                            <img src="<?= BASE_IMG ?>clientes/simspna.png" width = "200" class = "pt-4">
+                        </div>
+                    </div>
+                </div>
+
+                <div class = " owl-theme">
+                  <div class="owl-controls"><div class="custom-nav owl-nav"></div></div>
+                </div><!-- owl-theme-->
+            </div><!-- row-->
+            
+
         </div>
     </section>
 
 
     <section id = "planos-solo" class = "fundo-azul-fraco pt-5 pb-5" style = "background-image: url('<?= BASE_IMG ?>fundo/Fundo-com-linhas.png');">
-      <div class="container pb-5">
+      <div class="container">
         <div class="row pt-5 text-center texto-esquerda-mobile wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
-          <div class="col-md pt-5 mb-2">
-              <h1 class = " mb-3 cor-laranja-escuro fonte-bold display-4">Escolha o plano ideal para a sua empresa</h1>
-              <h3 class= " cor-azul-escuro m-auto">Invista pouco e tenha as melhores coberturas.</h3>
+          <div class="col-12 col-sm-7 col-lg-7 m-auto pt-5 mb-2 ">
+              <h1 class = "mb-3 cor-azul fonte-bold display-4">Escolha o plano ideal para você e sua família.</h1>
           </div>
         </div>
 
         <div class="row mt-2 mb-2">
             <!-- <div class="col-md-1"></div> -->
-            <div class="col-md-6 m-auto text-center texto-centro-mobile wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
-                                    <img src="<?= BASE_IMG ?>logo/prover_odonto_business_dental_life.png" width = "250" class="img-fluid">                    
+            <div class="col-12 col-sm-4 col-lg-4 m-auto text-center texto-centro-mobile wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
 
-                <div class="box-valores box-valores-pf">
-                  <h1 class="mt-3 negrito cor-azul display-4 wow animate__animated animate__heartBeat" data-wow-delay="1s">R$ 24,90<sub class = "italico normal fonte-18">/mês</sub></h1>
-                  <p class=" fonte-18 italico">Valores flexíveis quanto maior o número de vidas.<br>
-                  </p>
+                <div class="box-valores box-valores-pf pt-3 pb-3">
+                <img src="<?= BASE_IMG ?>logo/prover_odonto_business_dental_life.png" width = "150px" class="img-fluid">         
+                  <h1 class="mt-3 fonte-extra-bold cor-azul wow animate__animated animate__fade" data-wow-delay="1s">R$ 24,90</h1>
+                  <p class = "fonte-16">valor mensal por pessoa</p>
+
+                   <div class="col-12 col-sm-12 col-lg-12 mb-3 mt-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
+                      <a href="<?= BASE ?>consultor-de-prefeituras" target="_blank" class = "botao-azul">Quero contratar o plano</a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-12 mb-3 mt-4 wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
+                      <a href="<?= BASE ?>consultor-de-prefeituras" target="_blank" class = "botao-branco">Fale com um consultor</a>
+                    </div>
+                    <p class=" fonte-12 italico mt-4 col-10 m-auto">*Consulte a tabela de valores contratuais da sua preferitura ou sindicato, falando com um consultor.</p>
                 </div>
-                  
-
-                  <hr>
-                 <div class="row mb-5 mt-5 mb-5">
-                    <div class="col-md-6 mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
-                      <a href="<?= BASE ?>consultor-pj" target="_blank" class = "botao-laranja">Contratar meu plano</a>
-                    </div>
-                    <div class="col-md-6 mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="1.0s">
-                      <a href="<?= BASE ?>consultor-pj" class = "botao-branco">Falar com o consultor</a>
-                    </div>
-                  </div>
             </div>
         </div>
 

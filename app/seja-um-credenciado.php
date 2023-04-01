@@ -79,6 +79,27 @@
       </div>
     </section>
 
+
+    <section id = "" class = "fundo-azul-fraco pt-3 pb-5">
+      <div class="container  pt-5 pb-5 m-auto " style = "">
+          <div class="row pt-5 mb-4">
+
+            <div class="col-md-7 pt-5 wow animate__animated animate__fadeInLeft" data-wow-delay="0.9s">
+              <h1 class = "mt-3 mb-3 cor-azul display-4 negrito">Somos a primeira operadora odontológica sul-mato-grossense! </h1>
+              <p class = "fonte-24">Estamos presentes em todo o Mato Grosso do Sul, cuidando da saúde bucal dos Servidores Estaduais, Municipais, Empresas Privadas e famílias sul-mato-grossenses.</p>
+            </div>
+            <div class="col-md-5 wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">
+                <img src="<?= BASE_IMG ?>extra/mapa-ms.png" class = "img-fluid mt-4">
+            </div>
+
+            
+
+          </div>
+
+      </div>
+
+    </section>
+
         <section id = "" class="pt-2 pb-5 fundo-azul-fraco">
         <div class="container pt-5 pb-5">
             <div class="row pt-3 mb-2 mt-2">

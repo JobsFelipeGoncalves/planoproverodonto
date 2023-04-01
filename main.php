@@ -2,7 +2,9 @@
 include('url_response.php');
 $urlpatterns = array(
 
-//CONFIGURAÇÃO DE URL'S PADRÕES
+
+
+//Institucionais
 	'/institucional/resultado-idss' => 'resultado-idss.php',
 	
 	'/institucional/quem-somos' => 'quem-somos.php',
@@ -151,6 +153,24 @@ $urlpatterns = array(
 
 	'/prefeitura/nova-andradina' => 'pref-nova-andradina.php',	
 	'/prefeitura/nova-andradina?(?P<ads>\S+)' => 'pref-nova-andradina.php',		
+
+// NOVO Comercial
+	/* ==== SERVIDORES PÚBLICOS  ==== */
+	'/planos/prefeituras' => 'plano-prefeitura.php',
+	'/planos/prefeituras?(?P<ads>\S+)' => 'plano-prefeitura.php',
+	
+	'/prefeituras/demo' => 'plano-prefeitura.php',
+	'/prefeituras/demo?(?P<ads>\S+)' => 'plano-prefeitura.php',
+	
+	'/servidores-publicos' => 'plano-prefeitura.php',
+	'/servidores-publicos?(?P<ads>\S+)' => 'plano-prefeitura.php',
+
+	/* ==== PARA EMPRESAS ==== */
+	'/empresas/demo' => 'plano-empresa.php',	
+	'/empresas/demo?(?P<ads>\S+)' => 'plano-empresa.php',
+
+
+	
 
 //PRINCIPAL
 	'/' => 'index.php',
